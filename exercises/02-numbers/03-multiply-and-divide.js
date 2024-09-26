@@ -1,6 +1,4 @@
 const ONE_HUNDRED = 100;
-let a = 500;
-let b = 2;
 
 /**
  * Create a constant called "percentage".
@@ -9,5 +7,5 @@ let b = 2;
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-const percentage = (a / b) * ONE_HUNDRED;
+const percentage = (500 / 2) * ONE_HUNDRED;
 console.log(percentage);
