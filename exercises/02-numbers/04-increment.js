@@ -8,5 +8,5 @@ let age = 90; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-age += 1;
+age ++;
 console.log(age);
