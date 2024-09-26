@@ -10,4 +10,4 @@ let b = 2;
 // WRITE YOUR ANSWER BELOW THIS LINE
 
 const percentage = (a / b) * ONE_HUNDRED;
-console.log(percentage)
+console.log(percentage);
