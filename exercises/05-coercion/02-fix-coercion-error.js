@@ -10,3 +10,6 @@ let num2 = "7"; // e.g.
 // WRITE YOUR ANSWER BELOW THIS LINE
 
 let sum = num1 + num2;
+num2 = parseInt(num2);
+sum = num1 + num2;
+console.log(sum); 

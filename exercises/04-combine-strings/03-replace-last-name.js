@@ -16,3 +16,7 @@ let newLastName = "Fernandez"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const space = fullName.indexOf(" ");
+fullName = fullName.substring(0, space) + " " + newLastName;
+console.log(fullName);
