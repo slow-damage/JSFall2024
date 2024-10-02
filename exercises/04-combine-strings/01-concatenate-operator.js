@@ -17,5 +17,5 @@ let author = "J. K. Rowling";
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-bookTitle += author; 
-console.log(bookTitle);
+let bookInfo = bookTitle + " by " + author; 
+console.log(bookInfo);
