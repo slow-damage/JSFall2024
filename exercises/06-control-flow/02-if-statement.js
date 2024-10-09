@@ -19,4 +19,4 @@ if (tip) {
 } else {
     total = subtotal;
 }
-console.log(total)
+console.log(total);
