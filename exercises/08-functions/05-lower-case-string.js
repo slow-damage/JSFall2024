@@ -16,3 +16,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const lowerCaseString = str => typeof str === 'string' ? str.toLowerCase() : undefined;
+console.log(lowerCaseString()); 
