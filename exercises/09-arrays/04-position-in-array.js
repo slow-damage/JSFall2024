@@ -19,3 +19,5 @@ let results = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let place = results.indexOf(results[0]) + 3;
+ console.log(place);

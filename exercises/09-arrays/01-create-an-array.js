@@ -4,3 +4,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let restaurants = ["Meow", "Nya?", "Woof Woof"];
