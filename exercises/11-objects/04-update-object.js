@@ -15,3 +15,9 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+student.name = "Jamal Taylor";
+
+student.skills.push("Being a permanent student");
+
+console.log(student);
