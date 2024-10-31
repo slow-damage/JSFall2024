@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
+    "lodash": "^4.17.21",
     "picoprompt": "^5.0.1"
   }
 }
