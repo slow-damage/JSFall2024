@@ -29,7 +29,7 @@ This project will put together these topics that were covered in class:
 In the Visual Studio Code's terminal, type:
 
 ```shell
-npm init
+npm init -y
 ```
 
 The `npm init -y` command generates the _package.json_ file. Open it and add `"type": "module",` below the line with the version. Here is a sample of what _package.json_ should look like. Replace where is says `<YOUR NAME>` with your name and `<YOUR USERNAME>` with your Github username.
@@ -41,7 +41,7 @@ The `npm init -y` command generates the _package.json_ file. Open it and add `"t
   "engine": {
     "node": "^20.17" // Optional
   },
-  "type": "module",
+  "type": "module", // Add this
   "main": "index.js",
   "author": "<YOUR NAME>", // Optional
   "repository": {
