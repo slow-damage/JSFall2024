@@ -24,3 +24,8 @@ const links = [
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+links.forEach((href, idx) => {
+  const num = idx + 1;
+  htmlStr = htmlStr + '<a href="' + href + '">' + num + ". " + href + "</a>";
+});

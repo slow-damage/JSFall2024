@@ -15,7 +15,7 @@ const guessingGame = () => {
 
         if (answer === randomNum) {
             console.log("Congratulations! You guessed the correct number.");
-            break; // Exit the loop on correct answer
+            break; // Exit the loop on correct answer 
         } else if (answer < randomNum) {
             console.log("Wrong! Try a higher number.");
         } else {
