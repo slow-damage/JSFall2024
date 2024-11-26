@@ -7,9 +7,10 @@
   const newImg = document.querySelector('img');
   newImg.src = 'https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif';
   newImg.alt = 'A gif of a cat coding on a laptop';
-  const newLink = document.querySelector('#js');
+  const newLink = document.querySelector('a.alert.alert-warning');
   newLink.href = 'https://developer.mozilla.org/en-US/docs/Web/JavaScript';
   const newPara = document.querySelector('div.alert.alert-success');
   newPara.textContent = 'I am victorious!';
+
 
 })();
