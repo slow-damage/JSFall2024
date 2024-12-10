@@ -12,7 +12,24 @@
    * display what they selected inside of the empty <span> tags.
    * (See the comments in the HTML for what <span> tags to sue.)
    */
-  // Write your answer here
+
+  const emailSpan = document.querySelector('#emailSpan');
+  const email = document.querySelector('#email');
+
+  email.addEventListener('input', (event) => {
+    emailSpan.textContent = event.target.value;
+    console.log(emailSpan.textContent);
+  });
+  const titleSpan = document.querySelector("#titleSpan");
+  const title = document.querySelector("#title");
+
+  title.addEventListener("input", (event) => {
+    titleSpan.textContent = event.target.value;
+    console.log(titleSpan.textContent);
+  });
+
+
+
   /**
    * Problem 2: Handle a checkbox
    *
@@ -22,6 +39,12 @@
    *
    * As a bonus, see if you can hide the <div> tag if they uncheck the checkbox.
    */
+  const checkbox = document.querySelector("#shouldSendPromotions");
+  const checkboxDiv = document.querySelector("#checkboxDiv");
+  checkbox.addEventListener("change", () => {
+    checkboxDiv.classList.toggle("hidden");
+  });
+
   // Write your answer here.
   /**
    * Problem 3: Input validation
@@ -34,5 +57,15 @@
    * You can use the "input" or "change" events, but the general UX recommendation
    * is to use "blur" events for these types of error messages (form validation errors).
    */
-  // Write your answer here
+
+
+  email.addEventListener("blur", () => {
+    const error = document.querySelector("#emailError");
+    if (email.value === "") {
+      error.style.display = "block";
+    } else {
+      error.classList.add = "none";
+    }
+  });
+  
 })();
