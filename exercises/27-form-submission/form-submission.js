@@ -16,7 +16,8 @@
    * The exercise must be completed with a form handler
    * and you must prevent the page from refreshing when the form is submitted.
    */
-  // Write your answer here
+  // Write your answer here 
+  
   /**
    * Problem 2: Agree to the terms and conditions
    *

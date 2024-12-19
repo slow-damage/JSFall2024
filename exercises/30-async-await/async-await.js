@@ -1,4 +1,5 @@
-(function () {
+
+(async function () {
   /**
    * As a user, I should be able to click on the a button to see random dog images.
    * Please use async and await in this example.
@@ -15,4 +16,13 @@
    * NOTE: If you see a red squiggly line underneath axios for the error
    * "axios is not defined", ignore it. This is an issue with the linter.
    */
-})();
+
+    const button = document.querySelector('#dogBtn');
+    const image = document.querySelector('#image');
+    button.addEventListener('click', async () => {
+      const response = await axios.get('https://dog.ceo/api/breeds/image/random');
+      const dogImage = response.data.message;
+      console.log(response);
+      image.src = dogImage;
+    });
+  })();
