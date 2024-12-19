@@ -10,4 +10,20 @@
    * This is the API you will be using. The method will be GET.
    * https://ron-swanson-quotes.herokuapp.com/v2/quotes
    */
+  const button = document.querySelector("#quoteBtn");
+  button.addEventListener("click", async () => {
+  try {
+    const response = await axios.get(
+      "https://ron-swanson-quotes.herokuapp.com/v2/quotes"
+    );
+    const quote = response.data[0]; 
+    document.querySelector("#quote").textContent = quote;
+  } catch (error) {
+   document.querySelector(
+     "#quote"
+   ).textContent = `Oops! We wrote bad code :-( Here's your error: ${error}`;
+
+  }
+});
+
 })();
